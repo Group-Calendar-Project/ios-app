@@ -6,6 +6,15 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		CB96E7A42D7C3D5000F71477 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = CB96E7A32D7C3D5000F71477 /* SnapKit */; };
+		CB96E7A72D7C3D6200F71477 /* Then in Frameworks */ = {isa = PBXBuildFile; productRef = CB96E7A62D7C3D6200F71477 /* Then */; };
+		CB96E7AA2D7C3D7200F71477 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = CB96E7A92D7C3D7200F71477 /* Kingfisher */; };
+		CB96E7AD2D7C3D8900F71477 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = CB96E7AC2D7C3D8900F71477 /* Alamofire */; };
+		CB96E7B02D7C3DAB00F71477 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = CB96E7AF2D7C3DAB00F71477 /* RxCocoa */; };
+		CB96E7B22D7C3DAB00F71477 /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = CB96E7B12D7C3DAB00F71477 /* RxRelay */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		CB71D5E82D744985005FA299 /* CalendarProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalendarProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -36,6 +45,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB96E7B22D7C3DAB00F71477 /* RxRelay in Frameworks */,
+				CB96E7AA2D7C3D7200F71477 /* Kingfisher in Frameworks */,
+				CB96E7AD2D7C3D8900F71477 /* Alamofire in Frameworks */,
+				CB96E7B02D7C3DAB00F71477 /* RxCocoa in Frameworks */,
+				CB96E7A42D7C3D5000F71477 /* SnapKit in Frameworks */,
+				CB96E7A72D7C3D6200F71477 /* Then in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +93,12 @@
 			);
 			name = CalendarProject;
 			packageProductDependencies = (
+				CB96E7A32D7C3D5000F71477 /* SnapKit */,
+				CB96E7A62D7C3D6200F71477 /* Then */,
+				CB96E7A92D7C3D7200F71477 /* Kingfisher */,
+				CB96E7AC2D7C3D8900F71477 /* Alamofire */,
+				CB96E7AF2D7C3DAB00F71477 /* RxCocoa */,
+				CB96E7B12D7C3DAB00F71477 /* RxRelay */,
 			);
 			productName = CalendarProject;
 			productReference = CB71D5E82D744985005FA299 /* CalendarProject.app */;
@@ -107,6 +128,13 @@
 			);
 			mainGroup = CB71D5DF2D744985005FA299;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				CB96E7A22D7C3D5000F71477 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				CB96E7A52D7C3D6200F71477 /* XCRemoteSwiftPackageReference "Then" */,
+				CB96E7A82D7C3D7200F71477 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				CB96E7AB2D7C3D8900F71477 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				CB96E7AE2D7C3DAB00F71477 /* XCRemoteSwiftPackageReference "RxSwift" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = CB71D5E92D744985005FA299 /* Products */;
 			projectDirPath = "";
@@ -333,6 +361,82 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CB96E7A22D7C3D5000F71477 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+		CB96E7A52D7C3D6200F71477 /* XCRemoteSwiftPackageReference "Then" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/devxoul/Then.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+		CB96E7A82D7C3D7200F71477 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.3.0;
+			};
+		};
+		CB96E7AB2D7C3D8900F71477 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.10.2;
+			};
+		};
+		CB96E7AE2D7C3DAB00F71477 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.9.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CB96E7A32D7C3D5000F71477 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CB96E7A22D7C3D5000F71477 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		CB96E7A62D7C3D6200F71477 /* Then */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CB96E7A52D7C3D6200F71477 /* XCRemoteSwiftPackageReference "Then" */;
+			productName = Then;
+		};
+		CB96E7A92D7C3D7200F71477 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CB96E7A82D7C3D7200F71477 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		CB96E7AC2D7C3D8900F71477 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CB96E7AB2D7C3D8900F71477 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		CB96E7AF2D7C3DAB00F71477 /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CB96E7AE2D7C3DAB00F71477 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		CB96E7B12D7C3DAB00F71477 /* RxRelay */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CB96E7AE2D7C3DAB00F71477 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxRelay;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = CB71D5E02D744985005FA299 /* Project object */;
 }
