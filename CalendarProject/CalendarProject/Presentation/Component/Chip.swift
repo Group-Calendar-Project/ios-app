@@ -78,7 +78,12 @@ class Chip: UIButton {
 
         // 이미지 설정
         guard let imageURL, let url = URL(string: imageURL) else { return }
-        KingfisherManager.shared.retrieveImage(with: url) { result in
+        let processor = DownsamplingImageProcessor(size: imageSize)
+
+        KingfisherManager.shared.retrieveImage(
+            with: url,
+            options: [.processor(processor)]
+        ) { result in
             switch result {
             case .success(let value):
                 let image = value.image
