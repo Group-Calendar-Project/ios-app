@@ -19,7 +19,6 @@ class Chip: UIButton {
         titleColor: UIColor,
         font: UIFont,
         backgroundColor: UIColor?,
-        radius: CGFloat,
         borderWidth: CGFloat?,
         borderColor: UIColor?,
     ) {
@@ -31,7 +30,6 @@ class Chip: UIButton {
             titleColor: titleColor,
             font: font,
             backgroundColor: backgroundColor,
-            radius: radius,
             borderWidth: borderWidth,
             borderColor: borderColor,
         )
@@ -48,7 +46,6 @@ class Chip: UIButton {
         titleColor: UIColor,
         font: UIFont,
         backgroundColor: UIColor?,
-        radius: CGFloat,
         borderWidth: CGFloat?,
         borderColor: UIColor?,
     ) {
